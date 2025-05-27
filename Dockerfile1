@@ -1,0 +1,6 @@
+FROM ubuntu:latest
+RUN apt-get update && \
+apt-get install -y curl vim nano
+RUN echo "Listing root directory:"&& ls / && \
+echo "Current user is: " && whoami
+CMD["/bin/bash"]
