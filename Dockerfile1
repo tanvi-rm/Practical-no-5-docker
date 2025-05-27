@@ -4,3 +4,7 @@ apt-get install -y curl vim nano
 RUN echo "Listing root directory:"&& ls / && \
 echo "Current user is: " && whoami
 CMD["/bin/bash"]
+
+stepI: create a docker file
+Step2: open cmd from the folder location
+command: docker build -t folder_name
