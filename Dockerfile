@@ -1,3 +1,5 @@
+#for java
+
 FROM openjdk:17
 
 # Set the working directory
